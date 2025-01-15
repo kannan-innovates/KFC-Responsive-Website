@@ -1,0 +1,445 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+.navtop{
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navtop .text{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navtop .text p{
+    margin: 0px 10px;
+}
+
+[alt="location icon"]{
+    height: 20px;
+    margin: 0 10px;
+}
+
+.navbar .navtop button{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 0px 20px;
+}
+
+
+.navbottom {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    display: flex;
+    padding: 20px 130px;
+}
+
+[alt="Menu-button"]{
+    display: none;
+}
+
+.bottomleft,.bottomright{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.navbottom .bottomright div{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bottomright{
+    justify-content: end;
+}
+
+.item-no{
+    position: absolute;
+    right: 20px;
+}
+
+[alt="kfc logo"]{
+    width: 80px;
+}
+
+[alt="signin-icon"]{
+    margin-right: 10px;
+}
+
+[alt="cart-icon"]{
+    width: 50px;
+}
+
+ .black-bar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-bar button{
+    width: 150px;
+    height: 45px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+}
+
+.head1{
+    
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.container{
+    padding: 100px;
+}
+
+.head{
+    display: flex;
+}
+
+.categories{
+    padding-left: 150px;
+}
+
+.horizontal{
+    border-top: 1px solid gray;
+    flex-grow: 1;
+    margin: 25px 0 80px 20px;
+}
+
+.cards{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.card-offer{
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 385px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-body{
+    width: 100%;
+    background-color: rgb(234, 231, 231);
+}
+
+#for-hide{
+    display: none;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.offers,footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.offers-content{
+    margin-left: 12%;
+    padding-right: 50px;
+}
+
+.offers .head .head1{
+    margin: 50px 0px;
+}
+
+[alt="kfc stripes"]{
+    width: 130px;
+}
+
+.offers .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offers .head>div{
+    display: flex;
+    align-items: center;
+}
+
+[alt="arrow pic"]{
+    margin-left: 10px;
+    height: 20px;
+}
+
+.offer-cards{
+    align-self: flex-start;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;   
+}
+
+.offer-cards::-webkit-scrollbar{
+    display: none;
+}
+
+.offer-cards .head1{
+    color: red;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.offer-cards p{
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.offer-cards a{
+    color: gray;
+}
+
+.offer-cards button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-content{
+    padding: 5px 15px;
+}
+
+.offer-cards .card{
+    border: none;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+#footer #top{
+    padding: 100px 100px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+footer a:hover{
+    color: white;
+}
+
+th,td{
+    width: 170px;
+    height: 30px;
+}
+
+[alt="playstore"],[alt="appstore"]{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+
+.drophead p{
+    margin-top: 15px;
+}
+
+.drophead{
+    border: none;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+#drop-down-small-display{
+    display: none;
+    margin-bottom: 30px;
+}
+
+#drop-down-small-display div{
+    padding: 10px;
+    display: none;
+}
+
+.drophead img{
+    height: 20px;
+}
+
+[alt="footer logo kfc"]{
+    margin-bottom: 100px;
+}
+
+.bottomleft button{
+    border: none;
+    background-color: white;
+}
+
+footer .bottom p{
+    padding: 50px 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#social-icons{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+
+
+@media screen and (max-width:650px) {
+    .navtop{
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .bottomleft nav,.bottomright div:first-child {
+        display:none;
+    }
+
+    .navbottom{
+        padding: 20px 20px;
+    }
+
+    .bottomleft{
+        justify-content: space-between;
+    }
+
+    .bottomright{
+        position: absolute;
+        right: 10px;
+    }
+
+    [alt="Menu-button"]{
+        display: block; 
+    }
+
+    .black-bar{
+        flex-direction: column;
+    }
+
+    .black-bar p{
+        margin-bottom: 0;
+    }
+
+    .cards {
+        grid-template-columns: auto auto;
+    }
+
+    #for-hide{
+        display: block;
+    }
+
+    .categories{
+        padding-left: 0;
+    }
+
+    .offers-content .head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offers-content>div:first-child{
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer #top{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    table{
+        display: none;
+    }
+    #drop-down-small-display{
+        display: block;
+    }
+
+    .location{
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    footer{
+        padding: 50px 0 0 0;
+    }
+
+    body .offers .head .head1 {
+        margin: 15px 0px;
+    }
+    .offers .head{
+        margin-bottom: 20px;
+    }
+
+    [alt="playstore"],[alt="appstore"]{
+        margin:2rem 0px;
+    }
+
+    footer .bottom p{
+        font-size: small;
+    }
+}
+

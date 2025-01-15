@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC - Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navigation bar -->
+
+    <div class="navbar">
+        <div class="navtop">
+            <div class="text">
+                <img src="photos/location icon.png" alt="location icon">
+                <p>Allow location access for local store menu and promos</p>
+            </div>
+            <div class="button">
+                <button>Set Location</button>
+            </div>
+        </div>
+        <div class="navbottom">
+            <div class="bottomleft">
+                <button >
+                    <div>
+                        <img src="https://online.kfc.co.in/static/media/MenuIcon.e607771f.svg" alt="Menu-button">
+                    </div>
+                </button>
+                
+                <img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="kfc logo">
+                <nav>
+                    <ul>
+                        <li>Menu</li>
+                        <li>Deals</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bottomright">
+                <div>
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/6bJdGLRkksNvWP4LI9ZiFF/cb89d6393492fd093e0f99980abfa39e/Account_Icon.svg"
+                        alt="signin-icon">
+                    <span>Sign In</span>
+                </div>
+                <div>
+                    <span>₹0</span>
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg"
+                        alt="cart-icon">
+                </div>
+                <div class="item-no"><b>0</b></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- black bar -->
+    <div class="black-bar">
+        <div class="text">
+            <p>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</p>
+        </div>
+        <div class="button">
+            <button>Start Order</button>
+        </div>
+    </div>
+
+    <!-- categories -->
+
+    <div class="container ">
+        <div class="categories">
+            <div class="head">
+                <h1 class="head1">BROWSE CATEGORIES</h1>
+                <div class="horizontal"></div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="photos/img 1.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">international Burger Fest</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photos/img 2.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">match day combos</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photos/img 3.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">value lunch specials</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photos/img 4.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">box meals</p>
+                    </div>
+                </div>
+
+                <!-- for hiding when desktop view and display in moblie view -->
+
+                <div class="card" id="for-hide">
+                    <img src="photos/d1.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">value snackers</p>
+                    </div>
+                </div>
+                <div class="card" id="for-hide">
+                    <img src="photos/d2.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">chicken rolls</p>
+                    </div>
+                </div>
+                <div class="card" id="for-hide">
+                    <img src="photos/d3_1.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">snacks</p>
+                    </div>
+                </div>
+                <div class="card" id="for-hide">
+                    <img src="photos/d4_1.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">bevarages</p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <img src="photos/img 5.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">burgers</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photos/img 6.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">chicken buckets</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photos/img 7.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">rice bowlz</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT224.jpg?ver=56.47"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">value snackers</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- offers -->
+
+    <div class="offers">
+
+        <div class="offers-content">
+            <div><img src="photos/Flag_of_Berchem__Antwerp.svg-removebg-preview.png" alt="kfc stripes"></div>
+            <div class="head">
+                <h1 class="head1">BROWSE CATEGORIES</h1>
+                <div>
+                    <div class="">View All Deals </div>
+                    <img src="photos/arrow.png.png" alt="arrow pic">
+                </div>
+            </div>
+            <!-- offers cards -->
+
+            <div class="offer-cards">
+                <div class="card-offer" style="width: 18rem;">
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/CHKZINGER.jpg?ver=56.5"
+                        class="card-img-top" alt="...">
+                    <div class="card-content">
+                        <h5 class="head1">FREE CHICKEN</h5>
+                        <p class="card-description">Some quick example text to build on the card title and make up.</p>
+                        <div class="card-footer">
+                            <a href="">View Details</a>
+                            <button>Apply Offer</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-offer" style="width: 18rem;">
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/CHKZINGER.jpg?ver=56.5"
+                        class="card-img-top" alt="...">
+                    <div class="card-content">
+                        <h5 class="head1">FREE CHICKEN</h5>
+                        <p class="card-description">Some quick example text to build on the card title and make up.</p>
+                        <div class="card-footer">
+                            <a href="">View Details</a>
+                            <button>Apply Offer</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-offer" style="width: 18rem;">
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/CHKZINGER.jpg?ver=56.5"
+                        class="card-img-top" alt="...">
+                    <div class="card-content">
+                        <h5 class="head1">FREE CHICKEN</h5>
+                        <p class="card-description">Some quick example text to build on the card title and make up.</p>
+                        <div class="card-footer">
+                            <a href="">View Details</a>
+                            <button>Apply Offer</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-offer" style="width: 18rem;">
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/CHKZINGER.jpg?ver=56.5"
+                        class="card-img-top" alt="...">
+                    <div class="card-content">
+                        <h5 class="head1">FREE CHICKEN</h5>
+                        <p class="card-description">Some quick example text to build on the card title and make up.</p>
+                        <div class="card-footer">
+                            <a href="">View Details</a>
+                            <button>Apply Offer</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-offer" style="width: 18rem;">
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/CHKZINGER.jpg?ver=56.5"
+                        class="card-img-top" alt="...">
+                    <div class="card-content">
+                        <h5 class="head1">FREE CHICKEN</h5>
+                        <p class="card-description">Some quick example text to build on the card title and make up.</p>
+                        <div class="card-footer">
+                            <a href="">View Details</a>
+                            <button>Apply Offer</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-offer" style="width: 18rem;">
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/CHKZINGER.jpg?ver=56.5"
+                        class="card-img-top" alt="...">
+                    <div class="card-content">
+                        <h5 class="head1">FREE CHICKEN</h5>
+                        <p class="card-description">Some quick example text to build on the card title and make up.</p>
+                        <div class="card-footer">
+                            <a href="">View Details</a>
+                            <button>Apply Offer</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-offer" style="width: 18rem;">
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/CHKZINGER.jpg?ver=56.5"
+                        class="card-img-top" alt="...">
+                    <div class="card-content">
+                        <h5 class="head1">FREE CHICKEN</h5>
+                        <p class="card-description">Some quick example text to build on the card title and make up.</p>
+                        <div class="card-footer">
+                            <a href="">View Details</a>
+                            <button>Apply Offer</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-offer" style="width: 18rem;">
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/xl/CHKZINGER.jpg?ver=56.5"
+                        class="card-img-top" alt="...">
+                    <div class="card-content">
+                        <h5 class="head1">FREE CHICKEN</h5>
+                        <p class="card-description">Some quick example text to build on the card title and make up.</p>
+                        <div class="card-footer">
+                            <a href="">View Details</a>
+                            <button>Apply Offer</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer id="footer" style="padding-bottom: 15px;">
+        <div id="top">
+            <img src="https://images.ctfassets.net/wtodlh47qxpt/25FSYFuEtGct8NSrtpKe6d/b602f6fe0bf294e6a6dff5d7648bf594/KFC_Logo.svg"
+                alt="footer logo kfc">
+            <table>
+                <tr>
+                    <th>KFC India</th>
+                    <th>Legal</th>
+                    <th>KFC Food</th>
+                    <th>Support</th>
+                </tr>
+                <tr>
+                    <td><a href="">About KFC</a></td>
+                    <td><a href="">Terms and conditions</a></td>
+                    <td><a href="">Menu</a></td>
+                    <td><a href="">Get Help</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">KFC Care</a></td>
+                    <td><a href="">Privacy Policy</a></td>
+                    <td><a href="">Order Lookup</a></td>
+                    <td><a href="">Contact Us</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Careers</a></td>
+                    <td><a href="">Disclaimer</a></td>
+                    <td><a href="">Gift Card</a></td>
+                    <td><a href="">KFC Feedback</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Our Golden Past</a></td>
+                    <td><a href="">Caution Notice</a></td>
+                    <td><a href="">Nutrition & Allergen</a></td>
+                    <td><a href="">Privacy Policy</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Responsible Disclosure</a></td>
+                </tr>
+            </table>
+
+            <div class="container-fluid" id="drop-down-small-display">
+                <button class="drophead" onclick="divtoggle('kfc-india-drop')">
+                    <p>KFC India</p>
+                    <img src="photos/arrow_drop_down.png" alt="">
+                </button>
+                <div id="kfc-india-drop">
+                    <p>About KFC</p>
+                    <p>KFC Care</p>
+                    <p>Careers</p>
+                    <p>Our golden Past</p>
+                    <p>Responsible Disclosure</p>
+                </div>
+                <button class="drophead">
+                    <p>Legal</p>
+                    <img src="photos/arrow_drop_down.png" alt="">
+                </button>
+                <div id="legal-drop">
+                    <p>Terms & conditions</p>
+                    <p>Privacy Policy</p>
+                    <p>Disclaimer</p>
+                    <p>Caution Notice</p>
+                </div>
+                <button class="drophead" onclick="divtoggle('kfc-food-drop')">
+                    <p>KFC Food</p>
+                    <img src="photos/arrow_drop_down.png" alt="">
+                </button>
+                <div id="kfc-food-drop">
+                    <p>Menu</p>
+                    <p>Order Lookup</p>
+                    <p>Gift Card</p>
+                    <p>Nutrition & Allergen</p>
+                </div>
+                <button class="drophead">
+                    <p>Support</p>
+                    <img id="drop-icon" src="photos/arrow_drop_down.png" alt="">
+                </button>
+                <div id="support-drop">
+                    <p>Get Help</p>
+                    <p>Contact Us</p>
+                    <p>KFC Feedback</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+
+
+            <div class="location">
+                <img src="photos/location icon.png" alt="location icon">
+                <label for=""><a href="">Find a KFC</a></label>
+            </div>
+            <div class="store-buttons">
+                <a href="">
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/6BdZsyjLn64c06uCIE73d1/fb530f5d5231533b049463f6c7e8a2b1/google_play.svg"
+                        alt="playstore">
+                </a>
+                <a href="">
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/em3mcMuAdXWlgucSJiTbS/d3ae7e51ed101d829e459355e255c47f/apple.svg"
+                        alt="appstore">
+                </a>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Copyright &#169; KFC Corporation 2024 All rights reserved</p>
+        </div>
+    </footer>
+    
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
